@@ -1,0 +1,22 @@
+
+  .image{
+    border-radius: 50%;
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  
+  }
+  .cap{
+    text-transform: capitalize;
+}
+.dialog {
+  box-shadow: 0 8px 6px -6px hsl(0, 1%, 47%);
+  position: static;
+  left: -23%;
+  top: 10%;
+}
+
+.image1 {
+  width: 500px;
+  height:333px;
+}

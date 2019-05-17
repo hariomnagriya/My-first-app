@@ -1,0 +1,39 @@
+Nav Link {
+  text-decoration: none;
+}
+.css-serial {
+  counter-reset: serial-number; /* Set the serial number counter to 0 */
+}
+.css-serial td:first-child::before {
+  counter-increment: serial-number; /* Increment the serial number counter */
+  content: counter(serial-number); /* Display the counter */
+}
+.auth-box1 {
+  background: #fff;
+  border: 3px solid rgb(7, 7, 10);
+  padding: 20px;
+  margin: 50px 0;
+  border-radius: 5px;
+  }
+.active {
+background: rgb(164, 94, 197);
+font-weight: 200;
+/* text-transform: uppercase; */
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.9s;
+  animation: animatezoom 0.9s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+  

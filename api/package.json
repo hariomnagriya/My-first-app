@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "sever.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dest": "^0.3.1",
+    "express": "^4.16.4",
+    "express-check": "0.0.1",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.3",
+    "multer": "^1.4.1",
+    "node-localstorage": "^1.3.1",
+    "nodemailer": "^6.1.1",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-toastify": "^5.1.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
